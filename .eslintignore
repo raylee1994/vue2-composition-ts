@@ -1,0 +1,2 @@
+# Enable linting just for some files
+!src/test.js

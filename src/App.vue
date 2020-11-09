@@ -20,12 +20,12 @@ export default defineComponent({
     onMounted(() => {
       console.log(1);
     });
-    const x = ref(1);
+    const x = ref(1)
     return {
       x,
       mouseX,
       mouseY,
-    };
+    }
   },
   data() {
     return {
@@ -38,7 +38,7 @@ export default defineComponent({
   methods: {},
   mounted() {
     setTimeout(() => {
-      this.x = "2";
+      this.x = 2;
     }, 2000);
   },
 });
