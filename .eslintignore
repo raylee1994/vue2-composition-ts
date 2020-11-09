@@ -1,2 +1,3 @@
+src/
 # Enable linting just for some files
-!src/test.js
+!src/main.ts

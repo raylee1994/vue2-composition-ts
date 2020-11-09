@@ -75,10 +75,10 @@ interface FuncType {
 }
 const myFunc: FuncType = function(a, b) {
   if(a) {
-    return false;
+    return false
   }
   if(b) {
-    return true;
+    return true
   }
   return true;
 };
